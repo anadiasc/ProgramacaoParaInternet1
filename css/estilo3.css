@@ -1,0 +1,76 @@
+body {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    Background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destinos {
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #f2f4f796;
+    border-radius: 20%;
+}
+
+.fotos{
+    background-position: center center;
+    background-size: cover;
+    width: 297px;
+    height: 237px;
+    border-top-left-radius:20%;
+    border-top-right-radius: 20%;
+}
+
+#maragogi{
+    background-image: url('https://i.pinimg.com/564x/75/9d/fc/759dfc3a44316894ab107615a00ad7a2.jpg');
+}
+
+#st_peter{
+    background-image: url('https://i.pinimg.com/564x/9d/67/d9/9d67d9dd78a573139f6eb25d38914330.jpg');
+}
+
+#roma {
+    background-image: url('https://i.pinimg.com/564x/60/bb/20/60bb20e37b1599868adb532c640c6165.jpg');
+}
+
+#dacar {
+    background-position: top center;
+    background-image: url('https://i.pinimg.com/564x/a1/99/2b/a1992b4b58857085d45edc9a67f3a5e3.jpg');
+}
+
+
+h2, p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p {
+    font-size: x-small;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
