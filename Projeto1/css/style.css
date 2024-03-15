@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*#3705c1,#8364d7,#4c27b4*/
+body {
+    /*background: linear-gradient(100deg, #cab9fa,#ccbafd,#c4affe);*/
+    background-size: cover;
+    
+}
+
+header {
+    background: linear-gradient(100deg, #cab9fa,#ccbafd,#c4affe);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo_ifpi {
+    height: 150px;
+}
+
+#logo_ads {
+    height: 90px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link_menu {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inicio {
+    /*background-image: url('https://correnteemponto.com.br/images/noticias/5933/fec3637d06621c5c40140b1ccf063e06.jpeg');*/
+    background-image: url('https://i.pinimg.com/564x/30/01/c3/3001c3db1353f35e4ff0efd9c5f74ca2.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+h1 {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 55px;
+    text-shadow:black 5px 5px 34px;
+}
+#frase_inicio {
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-shadow:black 5px 5px 34px;
+}
+
+#turmas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.h3_main {
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+.box {
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #f2f4f796;
+    border-radius: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+#ementas{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#p_ementas{
+    font-size: x-large;
+    margin: 10px;
+}
+
+#foto_ementa{
+    height: 90vh;
+}
+
+#fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box_fotos {
+    margin: 10px;
+    width: 320px;
+    height: 400px;
+    background-color: #f2f4f796;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+#fale_conosco {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    height: 50vh;
+    justify-content: space-around;
+    background-color: #c4affe;
+}
+
+#informações {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#conjunto_insta {
+    display: flex;
+    align-items: center;
+}
+#instagram {
+    height: 20px;
+}
+
+.link_info {
+    text-decoration: none;
+    color: black;
+}
+
+#mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+input, button {
+    margin: 5px;
+}
