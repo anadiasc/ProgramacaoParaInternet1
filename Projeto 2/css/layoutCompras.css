@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+.main_secundario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_compra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.capa_quadrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.capa_quadrinho>img{
+    height: 80vh;
+    margin-right: 50px;
+}
+
+.informacoes{
+    font-family: "Martel Sans", sans-serif;
+    width: 600px;
+    padding: 10px;
+}
+
+.informacoes>h1{
+    font-size: xx-large;
+}
+
+.informacoes>p{
+    margin: 10px;
+}
+
+#preco{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.informacoes>button{
+    height: 38px;
+    width: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    font-family: "Martel Sans", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.informacoes>button:hover{
+    background-color: #bdbaba;
+    cursor: pointer;
+}
